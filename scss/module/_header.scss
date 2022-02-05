@@ -2,26 +2,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Festive&family=Noto+Sans+JP:wght@700&family=PT+Serif:wght@700&family=Quintessential&family=Syne+Tactile&family=The+Nautigal:wght@700&family=Ubuntu:wght@500&family=Yellowtail&display=swap');
 .Header{
     width: 100%;
-    padding-top: 50px;
+    font-family: f.$engfontfamily;
+    box-shadow: 0 15px 10px 10px rgba(255, 255, 255,);
+.Header__Webname{
+    padding: 25px 0;
+    text-align: center;
+    background-color: white;
+    font-size: f.$font-size-giga;
+}
+.Header__Nav{
+    width: 100%;
     margin-bottom: 25px;
     background-color: white;
     text-align: center;
-    font-family: f.$engfontfamily;
-    &__Webname{
-        padding-bottom: 50px;
-        background-color: white;
-        font-size: f.$font-size-giga;
-    }
-    &__Nav{
+    .Header__Nav{
         width: 100%;
         background-color: white;
-        box-shadow: 0 15px 10px 10px rgba(255, 255, 255,);
     }
-    &__Menu{
+    .Header__Menu{
+        width: 100%;
         display: flex;
         justify-content: center;
     }
-    &__List{
+    .Header__List{
         padding: 5px 80px;
         font-size: f.$font-size-mega;
         &:hover{
@@ -29,4 +32,5 @@
             font-weight: 900;
         }
     }
+}
 }
