@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   padding: 0;
   margin: 0;
@@ -36,7 +35,6 @@ body {
   -ms-overflow-style: none;
   scrollbar-width: none;
   background: linear-gradient(45deg, #ff7231, #ffc4b6, #ffb2b2);
-  /*グラデーションを定義*/
   background-size: 200% 200%;
   -webkit-animation: backgroundanimation 20s ease infinite;
           animation: backgroundanimation 20s ease infinite;
@@ -93,22 +91,34 @@ object {
 }
 .Header {
   width: 100%;
+  height: 100px;
+  padding-top: 50px;
+  background-color: white;
   text-align: center;
   font-family: "The Nautigal", cursive;
 }
 .Header__Webname {
-  margin: 50px 0;
+  padding-bottom: 50px;
+  background-color: white;
   font-size: 32px;
 }
 .Header__Nav {
   width: 100%;
+  background-color: white;
+  box-shadow: 0 15px 10px 10px white;
 }
 .Header__Menu {
   display: flex;
   justify-content: center;
 }
 .Header__List {
+  width: 100%;
+  height: 100%;
+  margin: 5px 80px;
   font-size: 18px;
-  margin: 0 50px;
+}
+.Header__List:hover {
+  border-radius: 25px;
+  font-weight: 900;
 }
 /*# sourceMappingURL=style.css.map */
