@@ -1,8 +1,9 @@
 @use "../mixin/font" as f;
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Noto+Sans+JP:wght@700&family=PT+Serif:wght@700&family=Quintessential&family=Syne+Tactile&family=The+Nautigal:wght@700&family=Ubuntu:wght@500&family=Yellowtail&display=swap');
 .Header{
     width: 100%;
-    height: 100px;
     padding-top: 50px;
+    margin-bottom: 25px;
     background-color: white;
     text-align: center;
     font-family: f.$engfontfamily;
@@ -21,10 +22,8 @@
         justify-content: center;
     }
     &__List{
-        width: 100%;
-        height: 100%;
-        margin: 5px 80px;
-        font-size: f.$font-size-kilo;
+        padding: 5px 80px;
+        font-size: f.$font-size-mega;
         &:hover{
             border-radius: 25px;
             font-weight: 900;
