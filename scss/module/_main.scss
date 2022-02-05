@@ -9,6 +9,31 @@
 @use "../setting/function" as function;
 
 .Profile{
-    width: 100%;
+    width: 50%;
+    margin: 50px auto;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 0px 0px 50px rgba(255, 255, 255,);
+    text-align: center;
+    &__Conteiner{
+        width: 100%;
+    }
+    &__Headdingtext{
+        padding: 15px 0;
+        font-size: f.$font-size-mega;
+    }
+    &__Name{
+        padding-bottom: 10px;
+        font-size: f.$font-size-kilo;
+    }
+    &__Age{
+        padding: 10px 0;
+        font-weight: 600;
+        font-size: f.$font-size-base;
+    }
+    &__Countryofcitizenship{
+        padding: 10px 0;
+        font-weight: 600;
+        font-size: f.$font-size-base;
+    }
 }
-

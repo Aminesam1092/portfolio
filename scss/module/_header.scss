@@ -5,7 +5,7 @@
     font-family: f.$engfontfamily;
     box-shadow: 0 15px 10px 10px rgba(255, 255, 255,);
 .Header__Webname{
-    padding: 25px 0;
+    padding: 25px 80px;
     text-align: center;
     background-color: white;
     font-size: f.$font-size-giga;
@@ -25,7 +25,7 @@
         justify-content: center;
     }
     .Header__List{
-        padding: 5px 80px;
+        padding: 0 40px;
         font-size: f.$font-size-mega;
         &:hover{
             border-radius: 25px;
