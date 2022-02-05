@@ -9,31 +9,42 @@
 @use "../setting/function" as function;
 
 .Profile{
-    width: 50%;
+    width: 100%;
     margin: 50px auto;
-    border-radius: 25px;
-    background-color: white;
-    box-shadow: 0px 0px 50px rgba(255, 255, 255,);
     text-align: center;
+    font-family: f.$jafontfamily;
+    vertical-align: bottom;
     &__Conteiner{
-        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 40px 50px;
+        border-radius: 25px;
+        background-color: white;
+        box-shadow: 0px 0px 25px rgba(255, 255, 255,);
     }
     &__Headdingtext{
         padding: 15px 0;
+        font-weight: 700;
         font-size: f.$font-size-mega;
+        vertical-align: bottom;
     }
     &__Name{
+        padding-top: 5px;
         padding-bottom: 10px;
+        font-weight: 700;
         font-size: f.$font-size-kilo;
+        vertical-align: bottom;
     }
     &__Age{
-        padding: 10px 0;
-        font-weight: 600;
+        padding: 20px 0;
+        font-weight: 700;
         font-size: f.$font-size-base;
+        vertical-align: bottom;
     }
     &__Countryofcitizenship{
-        padding: 10px 0;
-        font-weight: 600;
+        padding: 20px 0;
+        font-weight: 700;
         font-size: f.$font-size-base;
+        vertical-align: bottom;
     }
 }
