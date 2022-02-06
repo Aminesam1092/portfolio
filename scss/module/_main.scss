@@ -1,50 +1,158 @@
-@use "../base/base" as b;
-@use "../base/reset" as r;
-@use "../mixin/animation" as animation;
-@use "../mixin/breakpoint" as break;
-@use "../mixin/btn" as btn;
-@use "../mixin/font" as f;
-@use "../module/footer" as footer;
-@use "../module/header" as header;
-@use "../setting/function" as function;
+@use "../base/base"as b;
+@use "../base/reset"as r;
+@use "../mixin/animation"as animation;
+@use "../mixin/breakpoint"as break;
+@use "../mixin/btn"as btn;
+@use "../mixin/font"as f;
+@use "../module/footer"as footer;
+@use "../module/header"as header;
+@use "../setting/function"as function;
 
-.Profile{
+.Profile {
     width: 100%;
     margin: 50px auto;
     text-align: center;
     font-family: f.$jafontfamily;
     vertical-align: bottom;
-    &__Conteiner{
+
+    &__Conteiner {
         max-width: 600px;
         margin: 0 auto;
         padding: 40px 50px;
         border-radius: 25px;
         background-color: white;
-        box-shadow: 0px 0px 25px rgba(255, 255, 255,);
+        box-shadow: 0px 0px 25px rgba(255, 255, 255, );
     }
-    &__Headdingtext{
+
+    &__Headdingtext {
         padding: 15px 0;
         font-weight: 700;
         font-size: f.$font-size-mega;
         vertical-align: bottom;
     }
-    &__Name{
+
+    &__Image {
+        width: 40%;
+        height: 40%;
+        padding: 20px 0;
+    }
+
+    &__Name {
         padding-top: 5px;
         padding-bottom: 10px;
         font-weight: 700;
         font-size: f.$font-size-kilo;
         vertical-align: bottom;
     }
-    &__Age{
+
+    &__Age {
         padding: 20px 0;
         font-weight: 700;
         font-size: f.$font-size-base;
         vertical-align: bottom;
     }
-    &__Countryofcitizenship{
+
+    &__Countryofcitizenship {
         padding: 20px 0;
         font-weight: 700;
         font-size: f.$font-size-base;
+        vertical-align: bottom;
+    }
+
+    &__Supplementaryinformation {
+        padding: 20px 0;
+        font-weight: 700;
+        font-size: f.$font-size-base;
+        vertical-align: bottom;
+    }
+}
+
+.Skillintroduction{
+    width: 100%;
+    margin: 50px auto;
+    text-align: center;
+    font-family: f.$jafontfamily;
+    vertical-align: bottom;
+
+    &__Conteiner {
+        max-width: 600px;
+        margin: 0 auto;
+        text-align: center;
+        font-family: f.$jafontfamily;
+        vertical-align: bottom;
+        background-color: white;
+        box-shadow: 0px 0px 25px rgba(255, 255, 255, );
+        border-radius: 25px;
+    }
+
+    &__Headdingtext {
+        padding: 20px 0;
+        font-weight: 700;
+        font-size: f.$font-size-mega;
+        vertical-align: bottom;
+    }
+
+    &__Secondheddingtext {
+        line-height: 50px;
+        padding: 20px 0;
+        font-weight: 700;
+        font-size: f.$font-size-base;
+        vertical-align: bottom;
+    }
+
+    &__App {
+        padding: 20px 0;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &__SecondApp {
+        padding: 50px 0;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &__Skillpoint {
+        display: flex;
+        justify-content: center;
+    }
+}
+.CodeConteiner{
+    width: 100%;
+    margin: 50px auto;
+    &__Intruduction{
+        max-width: 600px;
+        margin: 20px auto;
+        text-align: center;
+        font-family: f.$jafontfamily;
+        vertical-align: bottom;
+        background-color: white;
+        box-shadow: 0px 0px 25px rgba(255, 255, 255, );
+        border-radius: 25px;
+    }
+    &__Headdingtext{
+        padding: 20px 0;
+        font-weight: 700;
+        font-size: f.$font-size-mega;
+        vertical-align: bottom;
+    }
+    &__SecondHeaddingtext{
+        line-height: 50px;
+        margin: 30px 0;
+        font-weight: 700;
+        font-size: f.$font-size-base;
+        vertical-align: bottom;
+    }
+    &__Workintroduction{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .Workintroductionimage{
+        padding: 0 20px;
+    }
+    &__Link{
+        font-weight: 700;
+        font-size: f.$font-size-base; 
         vertical-align: bottom;
     }
 }
