@@ -164,3 +164,26 @@
         color: red;
     }
 }
+.GraphicConteiner{
+    width: 100%;
+    margin: 50px auto;
+    &__Intruduction{
+        max-width: 600px;
+        margin: 20px auto;
+        text-align: center;
+        font-family: f.$jafontfamily;
+        vertical-align: bottom;
+        background-color: white;
+        box-shadow: 0px 0px 25px rgba(255, 255, 255, );
+        border-radius: 25px;
+    }
+    &__Headdingtext{
+        padding: 20px 0;
+        font-weight: 700;
+        font-size: f.$font-size-mega;
+        vertical-align: bottom;
+    }
+    &__Image{
+        padding: 10px 20px;
+    }
+}
