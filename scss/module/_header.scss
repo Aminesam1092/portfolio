@@ -1,4 +1,5 @@
 @use "../mixin/font" as f;
+@use "../mixin/breakpoint" as break;
 @import url('https://fonts.googleapis.com/css2?family=Festive&family=Noto+Sans+JP:wght@700&family=PT+Serif:wght@700&family=Quintessential&family=Syne+Tactile&family=The+Nautigal:wght@700&family=Ubuntu:wght@500&family=Yellowtail&display=swap');
 .Header{
     width: 100%;
@@ -9,6 +10,9 @@
     text-align: center;
     background-color: white;
     font-size: f.$font-size-giga;
+    @include break.breakpoint(smartphone) {
+        padding: 10px;
+    }
 }
 .Header__Nav{
     width: 100%;
@@ -27,6 +31,9 @@
     .Header__List{
         padding: 0 40px;
         font-size: f.$font-size-mega;
+        @include break.breakpoint(smartphone) {
+            padding: 10px;
+        }
         &:hover{
             border-radius: 25px;
             font-weight: 900;

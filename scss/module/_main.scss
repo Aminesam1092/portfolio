@@ -22,6 +22,9 @@
         border-radius: 25px;
         background-color: white;
         box-shadow: 0px 0px 25px rgba(255, 255, 255, );
+        @include break.breakpoint(smartphone) {
+            max-width: 320px;
+        }
     }
 
     &__Headdingtext {
@@ -29,12 +32,19 @@
         font-weight: 700;
         font-size: f.$font-size-mega;
         vertical-align: bottom;
+        @include break.breakpoint(smartphone) {
+            font-size: f.$font-size-base;
+        }
     }
 
     &__Image {
         width: 60%;
         height: 60%;
         padding: 20px 0;
+        @include break.breakpoint(smartphone) {
+           width: 80%;
+           height: 80%;
+        }
     }
 
     &__Name {
@@ -43,6 +53,9 @@
         font-weight: 700;
         font-size: f.$font-size-kilo;
         vertical-align: bottom;
+        @include break.breakpoint(smartphone) {
+            font-size: f.$font-size-base;
+        }
     }
 
     &__Age {
@@ -50,6 +63,9 @@
         font-weight: 700;
         font-size: f.$font-size-base;
         vertical-align: bottom;
+        @include break.breakpoint(smartphone) {
+            font-size: f.$font-size-milli;
+        }
     }
 
     &__Countryofcitizenship {
@@ -57,6 +73,9 @@
         font-weight: 700;
         font-size: f.$font-size-base;
         vertical-align: bottom;
+        @include break.breakpoint(smartphone) {
+            font-size: f.$font-size-milli;
+        }
     }
 
     &__Supplementaryinformation {
@@ -64,6 +83,9 @@
         font-weight: 700;
         font-size: f.$font-size-base;
         vertical-align: bottom;
+        @include break.breakpoint(smartphone) {
+            font-size: f.$font-size-milli;
+        }
     }
 }
 
@@ -83,6 +105,10 @@
         background-color: white;
         box-shadow: 0px 0px 25px rgba(255, 255, 255, );
         border-radius: 25px;
+        @include break.breakpoint(smartphone) {
+            max-width: 340px;
+        }
+        
     }
 
     &__Headdingtext {
@@ -90,6 +116,9 @@
         font-weight: 700;
         font-size: f.$font-size-mega;
         vertical-align: bottom;
+        @include break.breakpoint(smartphone) {
+            font-size: f.$font-size-kilo;
+        }
     }
 
     &__Secondheddingtext {
@@ -98,18 +127,27 @@
         font-weight: 700;
         font-size: f.$font-size-base;
         vertical-align: bottom;
+        @include break.breakpoint(smartphone) {
+            font-size: f.$font-size-milli;
+        }
     }
 
     &__App {
         padding: 20px 0;
         display: flex;
         justify-content: space-around;
+        @include break.breakpoint(smartphone) {
+            flex-wrap: wrap;
+        }
     }
 
     &__SecondApp {
         padding: 50px 0;
         display: flex;
         justify-content: space-around;
+        @include break.breakpoint(smartphone) {
+            flex-wrap: wrap;
+        }
     }
 
     &__Skillpoint {
@@ -129,12 +167,18 @@
         background-color: white;
         box-shadow: 0px 0px 25px rgba(255, 255, 255, );
         border-radius: 25px;
+        @include break.breakpoint(smartphone) {
+            max-width: 320px;
+        }
     }
     &__Headdingtext{
         padding: 20px 0;
         font-weight: 700;
         font-size: f.$font-size-mega;
         vertical-align: bottom;
+        @include break.breakpoint(smartphone) {
+            font-size: f.$font-size-kilo;
+        }
     }
     &__SecondHeaddingtext{
         line-height: 50px;
@@ -142,6 +186,9 @@
         font-weight: 700;
         font-size: f.$font-size-kilo;
         vertical-align: bottom;
+        @include break.breakpoint(smartphone) {
+            font-size: f.$font-size-base;
+        }
     }
     &__Workintroduction{
         margin-top: 30px;
@@ -156,6 +203,9 @@
         font-weight: 700;
         font-size: f.$font-size-base; 
         vertical-align: bottom;
+        @include break.breakpoint(smartphone) {
+            font-size: f.$font-size-micro;
+        }
     }
     &__SecondLink{
         padding-top: 10px;
@@ -163,6 +213,9 @@
         font-weight: 700;
         font-size: f.$font-size-base; 
         vertical-align: bottom;
+        @include break.breakpoint(smartphone) {
+            font-size: f.$font-size-milli;
+        }
     }
     .Changecolor{
         color: red;
@@ -180,12 +233,18 @@
         background-color: white;
         box-shadow: 0px 0px 25px rgba(255, 255, 255, );
         border-radius: 25px;
+        @include break.breakpoint(smartphone) {
+            max-width: 320px;
+        }
     }
     &__Headdingtext{
         padding: 20px 0;
         font-weight: 700;
         font-size: f.$font-size-mega;
         vertical-align: bottom;
+        @include break.breakpoint(smartphone) {
+            font-size: f.$font-size-kilo;
+        }
     }
     &__Image{
         padding: 10px 20px;
