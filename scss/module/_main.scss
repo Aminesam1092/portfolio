@@ -155,4 +155,12 @@
         font-size: f.$font-size-base; 
         vertical-align: bottom;
     }
+    &__SecondLink{
+        font-weight: 700;
+        font-size: f.$font-size-base; 
+        vertical-align: bottom;
+    }
+    .Changecolor{
+        color: red;
+    }
 }
