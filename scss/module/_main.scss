@@ -32,8 +32,8 @@
     }
 
     &__Image {
-        width: 40%;
-        height: 40%;
+        width: 60%;
+        height: 60%;
         padding: 20px 0;
     }
 
@@ -140,7 +140,7 @@
         line-height: 50px;
         margin: 30px 0;
         font-weight: 700;
-        font-size: f.$font-size-base;
+        font-size: f.$font-size-kilo;
         vertical-align: bottom;
     }
     &__Workintroduction{
@@ -151,11 +151,15 @@
         padding: 0 20px;
     }
     &__Link{
+        padding-top: 20px;
+        padding-bottom: 20px;
         font-weight: 700;
         font-size: f.$font-size-base; 
         vertical-align: bottom;
     }
     &__SecondLink{
+        padding-top: 10px;
+        padding-bottom: 20px;
         font-weight: 700;
         font-size: f.$font-size-base; 
         vertical-align: bottom;
@@ -185,5 +189,8 @@
     }
     &__Image{
         padding: 10px 20px;
+    }
+    .Video{
+        padding: 20px 20px;
     }
 }
