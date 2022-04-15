@@ -9,7 +9,7 @@
 @use "../setting/function"as function;
 
 .Profile {
-    width: 100%;
+    width: 90%;
     margin: 50px auto;
     text-align: center;
     font-family: f.$jafontfamily;
@@ -17,15 +17,13 @@
 
     &__Conteiner {
         max-width: 1160px;
-        margin-left: 20px;
-        margin-right: 20px;
         margin: 0 auto;
         padding: 40px 50px;
         border-radius: 25px;
         background-color: white;
         box-shadow: 0px 0px 25px rgba(255, 255, 255, );
         @include break.breakpoint(smartphone) {
-            max-width: 320px;
+            max-width: 600px;
         }
     }
 
@@ -92,7 +90,7 @@
 }
 
 .Skillintroduction{
-    width: 100%;
+    width: 90%;
     margin: 50px auto;
     text-align: center;
     font-family: f.$jafontfamily;
@@ -151,14 +149,9 @@
             flex-wrap: wrap;
         }
     }
-
-    &__Skillpoint {
-        display: flex;
-        justify-content: center;
-    }
 }
 .CodeConteiner{
-    width: 100%;
+    width: 90%;
     margin: 50px auto;
     &__Intruduction{
         max-width: 1160px;
@@ -229,7 +222,7 @@
     }
 }
 .GraphicConteiner{
-    width: 100%;
+    width: 90%;
     margin: 50px auto;
     &__Intruduction{
         max-width: 1160px;
