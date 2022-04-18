@@ -288,7 +288,7 @@
         font-weight: 700;
         color: f.$font-base-color;
         @include break.breakpoint(smartphone) {
-            font-size: f.$font-size-milli;
+            font-size: f.$font-size-base;
             padding: 5px 20px;
         }
     }
