@@ -106,7 +106,7 @@
         box-shadow: 0px 0px 25px rgba(255, 255, 255, );
         border-radius: 25px;
         @include break.breakpoint(smartphone) {
-            max-width: 340px;
+            max-width: 600px;
         }
         
     }
@@ -121,7 +121,7 @@
         }
     }
 
-    &__Secondheddingtext {
+    &__Secondheaddingtext {
         line-height: 50px;
         padding: 20px 0;
         font-weight: 700;
@@ -138,6 +138,14 @@
         justify-content: space-around;
         @include break.breakpoint(smartphone) {
             flex-wrap: wrap;
+        }
+    }
+    .Animation{
+        transition: all 0.3s ease;
+        &:hover{
+            transform: scale(1.4);
+            transform-origin: center center;
+            transition: all 0.3s ease;
         }
     }
 
@@ -163,7 +171,7 @@
         box-shadow: 0px 0px 25px rgba(255, 255, 255, );
         border-radius: 25px;
         @include break.breakpoint(smartphone) {
-            max-width: 320px;
+            max-width: 600px;
         }
     }
     &__Headdingtext{
@@ -234,7 +242,7 @@
         box-shadow: 0px 0px 25px rgba(255, 255, 255, );
         border-radius: 25px;
         @include break.breakpoint(smartphone) {
-            max-width: 320px;
+            max-width: 600px;
         }
     }
     &__Headdingtext{
@@ -247,12 +255,41 @@
         }
     }
     &__Image{
-        padding: 10px 20px;
+        margin-top: 50px;
+        padding: 5px 20px;
+        width: 70%;
+        height: 70%;
+        transition: all 0.3s ease;
+        &:hover{
+            transform: scale(1.2);
+            transform-origin: center center;
+            transition: all 0.3s ease;
+        }
+        @include break.breakpoint(smartphone) {
+            width: 100%;
+            height: 100%;
+        }
     }
     &__Comment{
         font-size: f.$font-size-milli;
     }
     .Video{
-        padding: 20px 20px;
+        padding: 20px;
+    }
+    iframe{
+        aspect-ratio: 16/ 9;
+        padding: 20px;
+        width: 100%;
+        height: 100%;
+    }
+    &__Text{
+        font-size: f.$font-size-base;
+        padding-bottom: 5px;
+        font-weight: 700;
+        color: f.$font-base-color;
+        @include break.breakpoint(smartphone) {
+            font-size: f.$font-size-milli;
+            padding: 5px 20px;
+        }
     }
 }
